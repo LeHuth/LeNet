@@ -13,4 +13,6 @@ output =   (inputs[0]*weights[0]+       #  1.0  * 0.2
             inputs[2]*weights[2]+       #+ 3.0  * -0.5
             inputs[3]*weights[3]+bias)  #+ 2.5  * 1.0 + 2.0
 
+
+
 print(output)
